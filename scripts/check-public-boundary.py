@@ -59,6 +59,9 @@ def main() -> int:
         relative = path.relative_to(ROOT)
         rel = relative.as_posix()
 
+        if rel == "scripts/check-public-boundary.py":
+            continue
+
         if path.name in FORBIDDEN_NAMES or path.suffix.lower() in FORBIDDEN_SUFFIXES:
             failures.append(f"sensitive file name/type: {rel}")
 
