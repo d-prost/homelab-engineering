@@ -5,6 +5,7 @@ A public engineering record from a real self-hosted environment.
 I use this repository for the parts of my HomeLab work that remain useful after the live details are removed: architecture decisions, experiments, incident lessons, recovery work and comparisons. It is not the operational source of truth for the environment.
 
 [![Validate public boundary](https://github.com/d-prost/homelab-engineering/actions/workflows/validate.yml/badge.svg)](https://github.com/d-prost/homelab-engineering/actions/workflows/validate.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/d-prost/homelab-engineering/badge)](https://securityscorecards.dev/viewer/?uri=github.com/d-prost/homelab-engineering)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Repository boundary
