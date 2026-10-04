@@ -1,0 +1,24 @@
+---
+name: Write-up proposal
+description: Suggest an engineering decision, experiment or lesson worth documenting.
+title: "write-up: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Engineering question
+      description: What decision, experiment or failure would the write-up examine?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it is useful
+      description: What should another self-hoster or systems engineer learn from it?
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Public boundary
+      description: Note any details that would need to be generalized or removed before publication.

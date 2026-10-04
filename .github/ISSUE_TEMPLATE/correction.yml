@@ -1,0 +1,24 @@
+---
+name: Correction
+description: Report something inaccurate, outdated or unclear.
+title: "correction: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Which file or section needs correction?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the specific problem.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or source
+      description: Link to documentation, a reproducible result or other public evidence when available.
