@@ -1,0 +1,4 @@
+title = "HomeLab Engineering Gitleaks"
+
+[extend]
+useDefault = true
