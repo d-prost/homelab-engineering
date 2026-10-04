@@ -39,7 +39,18 @@ Removing this repository must not change Production behavior.
 
 A page that only repeats upstream documentation does not belong here.
 
+## Start here
+
+- [Architecture overview](architecture/overview.md)
+- [Authority model](architecture/authority-model.md)
+- [Repository boundaries](architecture/repository-boundaries.md)
+- [Restore testing strategy](recovery/restore-testing-strategy.md)
+- [Backup is not recovery](lessons/backup-is-not-recovery.md)
+- [Desired state is not accepted state](lessons/desired-state-is-not-accepted-state.md)
+- [Rollback needs re-verification](lessons/rollback-needs-reverification.md)
+
 ## Layout
+
 
 | Path | Purpose |
 | --- | --- |
